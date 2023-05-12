@@ -12,6 +12,8 @@ With this command audios with names "mixture1.wav" and "mixture2.wav" will be pr
 
 **Note**: By default inference requires at least 11 GB of video memory. If you have less memory you can use CPU (`--cpu`) or use single ONNX (`--single_onnx`). Also reduce of chunk size can help (`--chunk_size 200000`).
 
+**Colab Notebook**: <a href="https://colab.research.google.com/github/justinjohn0306/MVSEP-MDX23-music-separation-model/blob/main/MVSEP_MDX23_music_separation_model.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 ## Quality comparison
 
 Quality comparison with best separation models performed on [MultiSong Dataset](https://mvsep.com/quality_checker/leaderboard2.php?sort=bass). 
